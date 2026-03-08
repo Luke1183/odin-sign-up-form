@@ -33,9 +33,18 @@ a {
 
 #right-content {
     width: 60%;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
 }
+
 
 #text,
 #submit-button {
-    background-color: lightgray;
+    flex: 1;
+}
+
+#form-container {
+    background-color: white;
+    box-shadow: -2px 2px 5px gray;
 }
