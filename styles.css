@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Norse';
+    src: url('fonts/Norse-Bold.woff2') format('woff2'),
+        url('fonts/Norse-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 html {
     box-sizing: border-box;
 }
@@ -39,6 +48,8 @@ body {
 
 #logo-text {
     color: white;
+    font-family: 'Norse', serif;
+    font-size: 4rem;
 }
 
 #image-credit,
