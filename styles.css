@@ -84,9 +84,14 @@ a {
 }
 
 
-#text,
-#submit-button {
+#text-container,
+#submit-button-container {
     flex: 1;
+}
+
+#submit-button {
+    background-color: #596D48;
+    color: white;
 }
 
 #form-container {
