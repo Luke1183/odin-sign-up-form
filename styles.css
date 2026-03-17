@@ -35,6 +35,10 @@ body {
     display: flex;
 }
 
+p {
+    max-width: 50ch;
+}
+
 
 #left-image {
     background-image: url("halie-west-unsplash-ferns.jpg");
@@ -93,12 +97,24 @@ a {
     display: flex;
     flex-direction: column;
     background-color: lightgray;
+    justify-content: center;
 }
 
+#text-container {
+    margin: 2.5rem 2rem;
+}
 
-#text-container,
 #submit-button-container {
-    flex: 1;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+}
+
+#log-in-link-container {
+    margin-left: 2rem;
+}
+
+#create-account {
+    margin-left: 2rem;
 }
 
 #submit-button {
