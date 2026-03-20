@@ -24,24 +24,42 @@
         <div id="form-container">
             <form action="" id="create-account">
                 <fieldset>
-                    <legend>Let's do this!</legend>
-                    <label for="firstname">FIRST NAME</label>
-                    <input type="text" name="firstname" id="firstname">
+                    <legend><strong>Let's do this!</strong></legend>
+                    <div id="form-inputs-container">
+                        <div class="form-input">
+                            <label for="firstname">FIRST NAME</label>
+                            <input type="text" name="firstname" id="firstname">
+                        </div>
 
-                    <label for="lastname">LAST NAME</label>
-                    <input type="text" name="lastname" id="lastname">
+                        <div class="form-input">
+                            <label for="lastname">LAST NAME</label>
+                            <input type="text" name="lastname" id="lastname">
+                        </div>
+                    
 
-                    <label for="email">EMAIL</label>
-                    <input type="email" name="email" id="email">
+                    
+                        <div class="form-input">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email">
+                        </div>
 
-                    <label for="phonenumber">PHONE NUMBER</label>
-                    <input type="tel" name="phonenumber" id="phonenumber">
+                        <div class="form-input">
+                            <label for="phonenumber">PHONE NUMBER</label>
+                            <input type="tel" name="phonenumber" id="phonenumber">
+                        </div>
+                    
 
-                    <label for="password">PASSWORD</label>
-                    <input type="password" name="password" id="password">
+                    
+                        <div class="form-input">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password">
+                        </div>
 
-                    <label for="confirmpassword">CONFIRM PASSWORD</label>
-                    <input type="password" name="confirmpassword" id="confirmpassword">
+                        <div class="form-input">
+                            <label for="confirmpassword">CONFIRM PASSWORD</label>
+                            <input type="password" name="confirmpassword" id="confirmpassword">
+                        </div>
+                    </div>
                 </fieldset>
             </form>
         </div>
@@ -49,7 +67,7 @@
             <button id="submit-button" type="submit" form="create-account">Create Account</button>
         </div>
         <div id="log-in-link-container">
-            <p>Already have an account? <a href="#">Log in</a></p>
+            <p>Already have an account? <a id="log-in-link" href="#">Log in</a></p>
         </div>
     </div>
 </body>
