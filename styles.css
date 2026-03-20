@@ -183,3 +183,13 @@ input:user-invalid {
     border-radius: 2px;
     padding: 4px 8px;
 }
+
+input:user-invalid:focus {
+    box-sizing: inherit;
+    border: solid gray 2px;
+    outline: none;
+    background-color: yellow;
+    outline-offset: 0.2px;
+    border-radius: 2px;
+    padding: 4px 8px;
+}
