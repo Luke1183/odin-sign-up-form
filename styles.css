@@ -175,3 +175,11 @@ label {
     font-size: 0.7rem;
     color: #232323;
 }
+
+input:user-invalid {
+    box-sizing: inherit;
+    border: solid white 2px;
+    outline: 2px solid red;
+    border-radius: 2px;
+    padding: 4px 8px;
+}
